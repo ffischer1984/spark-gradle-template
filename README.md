@@ -1,7 +1,9 @@
-2019 update
+
 # _Spark-Gradle-Template_
 A barebones project with scala, apache spark built using gradle. Spark-shell provides `spark` and `sc` variables pre-initialised, here I did the same using a *scala trait* that you can extend.
 
+## Usage with HDP Sandbox
+https://community.hortonworks.com/questions/23976/vonnect-hdp-24-spark-remotely-failed.html
 ## Prerequisites
 - [Java](https://java.com/en/download/)
 - [Gradle](https://gradle.org/)
