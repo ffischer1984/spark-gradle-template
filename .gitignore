@@ -766,3 +766,5 @@ gradle-app.setting
 ### IPythonNotebook template
 # Temporary data
 .ipynb_checkpoints/
+spark-gradle-template.iml
+spark-warehouse/
