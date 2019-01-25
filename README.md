@@ -1,3 +1,4 @@
+2019 update
 # _Spark-Gradle-Template_
 A barebones project with scala, apache spark built using gradle. Spark-shell provides `spark` and `sc` variables pre-initialised, here I did the same using a *scala trait* that you can extend.
 
@@ -5,6 +6,10 @@ A barebones project with scala, apache spark built using gradle. Spark-shell pro
 - [Java](https://java.com/en/download/)
 - [Gradle](https://gradle.org/)
 - [Scala](https://www.scala-lang.org/)
+  - doesn't run well with Java 9
+  - workaround:
+    - install jdk 8
+    - gradlew clean run -Dorg.gradle.java.home="C:\Program Files\Java\jdk1.8.0_77"
 
 ## Build and Demo process
 
